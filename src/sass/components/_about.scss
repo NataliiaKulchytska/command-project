@@ -1,0 +1,19 @@
+.about__close {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  fill: $title-color;
+  &:hover,
+  &:focus {
+    fill: $text-color-dark;
+  }
+
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(-10px, 10px);
+}
